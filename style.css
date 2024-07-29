@@ -71,19 +71,25 @@ input {
     border-radius: 2px;
     width: 200px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-#labelId {
-    padding-top: 30px;
-}
-button {
+
+#enviarInput {
     padding: 7px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.3);
     margin-top: 10px;
+    text-align: center;
 }
-button:hover {
+#enviarInput:hover {
     cursor:pointer;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     transition: 0.2s;
+}
+#labelId {
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
