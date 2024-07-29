@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-weight: 200;
+overflow: hidden;
 }
 #background {
  position: absolute;
@@ -11,7 +12,8 @@ font-weight: 200;
 img {
     width: 100vw;
     height: 100vh;
-    opacity: 0.9;
+    opacity: 0.8;
+    overflow: hidden;
 }
 #container {
     position: absolute;
@@ -46,11 +48,12 @@ img {
 .titleClass{
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    background-color: rgba(242, 146, 56, 0.8);
+    background-color: rgba(242, 146, 56, 0.9);
     width: 400px;
     height: 500px;
 }           
 #lista {
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
