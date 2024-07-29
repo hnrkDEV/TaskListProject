@@ -1,9 +1,10 @@
 *{
 margin: 0;
 padding: 0;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-weight: 200;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 overflow: hidden;
+color: white;
+letter-spacing: 1px;
 }
 #background {
  position: absolute;
@@ -12,7 +13,6 @@ overflow: hidden;
 img {
     width: 100vw;
     height: 100vh;
-    opacity: 0.8;
     overflow: hidden;
 }
 #container {
@@ -34,7 +34,7 @@ img {
     justify-content: center;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: rgb(242, 146, 56);
+    background-color: rgb(115, 1, 244);
     width: 400px;
     height: 500px;
     overflow: auto;
@@ -48,7 +48,7 @@ img {
 .titleClass{
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    background-color: rgba(242, 146, 56, 0.9);
+    background-color: rgba(115, 1, 244,0.8);
     width: 400px;
     height: 500px;
 }           
@@ -84,12 +84,15 @@ input {
 }
 #enviarInput:hover {
     cursor:pointer;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(115, 1, 244);
     transition: 0.2s;
 }
 #labelId {
     padding-top: 20px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+}
+#resposta {
+    color: black;
 }
